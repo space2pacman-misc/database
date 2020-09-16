@@ -1,0 +1,18 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "mongodb": "^3.6.2",
+    "prompt-confirm": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "create": "node actions/create",
+    "drop": "node actions/drop",
+    "init": "node actions/create & node actions/addDefaultData"
+  },
+  "author": "",
+  "license": "ISC"
+}
